@@ -1,13 +1,19 @@
 .greetingForm {
+
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    margin-left: 15%;
 }
 
 .error {
 }
 
 .input {
+    box-sizing: border-box;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
 }
 
 .input:focus {
@@ -17,6 +23,7 @@
 }
 
 .button {
+    margin-left: 1%;
 }
 
 .button:focus {
@@ -29,7 +36,12 @@
 }
 
 .text {
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    margin-left: 15%;
 }
 
 .greeting {
+    margin-top: 0.5%;
+    margin-left: 15%;
 }
