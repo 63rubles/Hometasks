@@ -4,6 +4,7 @@
 }
 
 .wrapper {
+    margin-top: 15%;
     align-items: center;
     display: flex;
     height: calc(100vh - var(--header_height));
