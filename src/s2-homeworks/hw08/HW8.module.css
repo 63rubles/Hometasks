@@ -5,19 +5,39 @@
 }
 
 .users {
+    margin-top: 1%;
+    width: 40%;
 }
 
 .buttonsContainer {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
 }
 
 .container {
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .thead {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    background-color: #E5E5E5;
+    height: 36px;
+    width: 123%;
 }
 
 .nameCol {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .ageCol {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
 }
